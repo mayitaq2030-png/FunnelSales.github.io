@@ -49,7 +49,7 @@ Key areas of improvement:
 <p align="justify"> 
 The dashboard reveals strong initial user engagement but a major drop-off before the login stage, driven by no-login attempts, errors, and MFA failures. Only 25.43% of users complete the order, indicating workflow friction rather than acquisition issues. Insights show that login errors and harvest failures are the highest-impact blockers. Reducing login errors by 1% could add 8–12 additional daily completions. Improving MFA success rates by 1% could increase daily revenue by £150–£210. Streamlining login guidance, optimizing MFA steps, and enhancing error handling are recommended to significantly improve pull-through rates. </p>
 
-<img width="755" height="390" alt="image" src="https://github.com/user-attachments/assets/217ed0f0-9213-4686-9cca-207f46f2e67a" />
+<img width="500" height="336" alt="image" src="https://github.com/user-attachments/assets/31bc0436-2c2c-45f2-a2c6-e7869af34e5e" />
 
 ✅ Pipeline value decreased $28M YTD, exposing revenue risk.
 
