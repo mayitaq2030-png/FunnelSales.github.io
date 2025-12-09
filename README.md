@@ -21,6 +21,7 @@ Key areas of improvement:
 #### Order completion for chart 
 
 <img width="1536" height="1024" alt="ChatGPT Image 9 dic 2025, 16_33_35" src="https://github.com/user-attachments/assets/f414af6f-c06c-4fb1-8eb9-78e3600567b8" />
+<img width="164" height="434" alt="image" src="https://github.com/user-attachments/assets/b9afc325-be9e-4ae5-9999-5b53c5c12575" />
 
 ### Methodology:
 
