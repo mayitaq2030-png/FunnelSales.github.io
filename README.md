@@ -33,7 +33,7 @@ Key areas of improvement:
 
 - Comparative Analysis: YTD trends, variance vs. quota, deal size behavior, agent performance benchmarking.
 
-#### Skills:
+### Skills:
 
 - SQL (joins, aggregations, window functions).
 
