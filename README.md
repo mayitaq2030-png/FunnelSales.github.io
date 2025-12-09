@@ -21,7 +21,7 @@ Key areas of improvement:
 #### Order completion for chart 
 
 <img width="1536" height="1024" alt="ChatGPT Image 9 dic 2025, 16_33_35" src="https://github.com/user-attachments/assets/f414af6f-c06c-4fb1-8eb9-78e3600567b8" />
-<img width="164" height="434" alt="image" src="https://github.com/user-attachments/assets/b9afc325-be9e-4ae5-9999-5b53c5c12575" />
+
 
 ### Methodology:
 
@@ -48,9 +48,10 @@ Key areas of improvement:
 ### Results & Business Recommendations:
 
 <p align="justify"> 
-The dashboard reveals strong initial user engagement but a major drop-off before the login stage, driven by no-login attempts, errors, and MFA failures. Only 25.43% of users complete the order, indicating workflow friction rather than acquisition issues. Insights show that login errors and harvest failures are the highest-impact blockers. Reducing login errors by 1% could add 8–12 additional daily completions. Improving MFA success rates by 1% could increase daily revenue by £150–£210. Streamlining login guidance, optimizing MFA steps, and enhancing error handling are recommended to significantly improve pull-through rates. </p>
+The dashboard reveals strong initial user engagement but a major drop-off before the login stage, driven by no-login attempts, errors, and MFA failures. Only 25.43% of users complete the order, indicating workflow friction rather than acquisition issues. Insights show that login errors and harvest failures are the highest-impact blockers. Reducing login errors by 1% could add 8–12 additional daily completions. Improving MFA success rates by 1% could increase daily revenue by $150–$210. Streamlining login guidance, optimizing MFA steps, and enhancing error handling are recommended to significantly improve pull-through rates. </p>
 
 <img width="500" height="336" alt="image" src="https://github.com/user-attachments/assets/31bc0436-2c2c-45f2-a2c6-e7869af34e5e" />
+<img width="164" height="434" alt="image" src="https://github.com/user-attachments/assets/b9afc325-be9e-4ae5-9999-5b53c5c12575" />
 
 ✅ Pipeline value decreased $28M YTD, exposing revenue risk.
 
@@ -79,12 +80,12 @@ I believe these adjustments will significantly increase the pull-through rate, i
 
 ### Next Steps:
 
-Build predictive models (conversion likelihood, deal scoring).
+📌Build predictive models (conversion likelihood, deal scoring).
 
-Automate daily/weekly data refresh for the dashboard.
+📌Automate daily/weekly data refresh for the dashboard.
 
-Integrate CRM workflow triggers for stalled deals.
+📌Integrate CRM workflow triggers for stalled deals.
 
-Develop cohort analysis by segment and agent.
+📌Develop cohort analysis by segment and agent.
 
-Present insights to leadership and design action plan with Sales Ops.
+📌Present insights to leadership and design action plan with Sales Ops.
