@@ -1,6 +1,6 @@
 # Funnel Pipeline & Sales Conversion Analysis for Saas Tech 
 
-### Executive Summary
+### Executive Summary:
 
 <p align ="justify"> Using SQL, Python, and Power BI, I analyzed the company’s sales pipeline to identify revenue risks, stage bottlenecks, and activity gaps affecting conversion. The dashboard highlights declining pipeline value, inconsistent sales activity, and delays in key deal stages that limit quota attainment. These insights reveal immediate opportunities to strengthen forecasting accuracy and improve overall sales effectiveness.:</p>
 
@@ -14,7 +14,7 @@ Key areas of improvement:
 
 
 
-### Business Problem
+### Business Problem:
 
 <p align="justify"> Completed orders are essential for this SaaS tech company because they are directly tied to revenue generation. However, stakeholders have identified that the product is experiencing a lower-than-expected conversion rate, particularly between user interaction, login attempts, and final order completion. This gap suggests that a considerable number of users fall out of the workflow before completing the intended process, indicating friction points within the login and verification stages.. </p>
 
@@ -22,7 +22,7 @@ Key areas of improvement:
 
 <img width="1536" height="1024" alt="ChatGPT Image 9 dic 2025, 16_33_35" src="https://github.com/user-attachments/assets/f414af6f-c06c-4fb1-8eb9-78e3600567b8" />
 
-### Methodology 
+### Methodology:
 
 - Data Extraction: SQL queries to pull pipeline, deal stage, activity, and sales performance records.
 
@@ -47,21 +47,43 @@ Key areas of improvement:
 ### Results & Business Recommendations:
 
 <p align="justify"> 
-Creating a dashboard to analyze Superstore performance gives commercial and executive teams clear visibility into sales, profit, and customer behavior across regions and product categories. By democratizing this data, stakeholders can now self-serve insights, reducing ad-hoc requests by more than 5 hours per week. The analysis revealed strong YoY growth in sales and orders, but a 4.4% decline in profit ratio driven by margin pressure in key categories. Regional performance showed California and New York as primary revenue drivers, while central states lag behind. Forecasting models indicate that increasing sales of top sub-categories by 1% could generate £380–£450 in additional daily revenue, and improving profit ratio by 1% could add roughly £520 per day. </p>
+The dashboard reveals strong initial user engagement but a major drop-off before the login stage, driven by no-login attempts, errors, and MFA failures. Only 25.43% of users complete the order, indicating workflow friction rather than acquisition issues. Insights show that login errors and harvest failures are the highest-impact blockers. Reducing login errors by 1% could add 8–12 additional daily completions. Improving MFA success rates by 1% could increase daily revenue by £150–£210. Streamlining login guidance, optimizing MFA steps, and enhancing error handling are recommended to significantly improve pull-through rates. </p>
 
 <img width="755" height="390" alt="image" src="https://github.com/user-attachments/assets/217ed0f0-9213-4686-9cca-207f46f2e67a" />
 
-✅ 21.4% YoY growth in total sales and 16% YoY growth in profit.
+✅ Pipeline value decreased $28M YTD, exposing revenue risk.
 
-✅ Most profitable regions: East & West. Highest-revenue state: California (£457.7K).
+✅ Weighted pipeline decreased $8.1M, reducing win probability.
 
-✅ Top-performing segments: Consumer (45%) and Corporate (33%).
+✅ Average sales cycle dropped 2 days, but stage bottlenecks persist (Proposal & Negotiation).
 
-✅ High-performing categories: Technology (£272.4K) and Office Supplies (£253.8K).
+✅ Win rate increased to 9.3%, indicating better deal quality.
 
-✅ Sub-category analysis highlights Phones, Chairs, and Binders as top contributors.
+✅ Lost deals mainly due to customer unresponsiveness, pricing, and poor fit.
+
+✅ Top agent activity score dropped by 200 points, impacting team momentum.
 
 <p align="justify"> 
-Because the strongest revenue opportunities come from improving profit ratio, strengthening high-performing categories, and optimizing underperforming regions, I recommend a few strategic adjustments:
+Because the strongest opportunities to increase order completion come from reducing workflow friction, improving login and MFA success rates, and stabilizing error-prone technical stages, I recommend a few strategic adjustments:
 
-Increase targeted promotions in top-performing sub-categories (Phones, Chairs, Binders) to capitalize on high conversion and strong YoY demand.
+Implement guided UI prompts and early-stage nudges to encourage users to complete the login step, addressing the largest drop-off segment (“No Login Attempt”) and increasing progression into the authentication process.
+
+Enhance MFA performance and flexibility by introducing streamlined verification flows, clearer instructions, and fallback authentication options to reduce abandonment during security validation.
+
+Improve technical stability in harvest-related processes by optimizing backend logic, adding automated retries, and strengthening error-handling, ensuring fewer order failures caused by system interruptions.
+
+Add real-time alerts and diagnostic indicators in dashboards to highlight failure hotspots such as login errors, MFA denials, and harvest failures, enabling teams to respond quickly and prioritize engineering fixes.
+
+I believe these adjustments will significantly increase the pull-through rate, improve user experience across critical workflow stages, and support measurable revenue growth while reducing operational overhead through improved product visibility and faster issue detection.</p>
+
+### Next Steps:
+
+Build predictive models (conversion likelihood, deal scoring).
+
+Automate daily/weekly data refresh for the dashboard.
+
+Integrate CRM workflow triggers for stalled deals.
+
+Develop cohort analysis by segment and agent.
+
+Present insights to leadership and design action plan with Sales Ops.
